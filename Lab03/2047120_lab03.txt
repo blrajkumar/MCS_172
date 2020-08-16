@@ -1,0 +1,49 @@
+Script started on 2020-08-14 22:37:27+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="172" LINES="41"]
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ 
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ echo "
+> Name  : Rajkumar B l[KL
+> Reg.No: 204710[K20"
+
+Name  : Rajkumar B L
+Reg.No: 2047120
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ gcc qest01_a.c[K[K[K[K[K[K[K[K[Kuest01_a.c 
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ ./a.out 
+Input the number of lines to be written : 3
+	 Name : Rajkumar Balake rishnan Lakshmi
+	 U.  G  .G : York University, Toronto - Canada (Bsc.Computer Science)
+	 Graduation Year         ted Year: 2019
+
+The file my_data.txt is created and data has been entered
+Displaying the content of my_data.txt:
+
+Name : Rajkumar Balakrishnan Lakshmi
+U.G : York University, Toronto - Canada (Bsc.Computer Science)
+Graduated Year: 2019
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ ./a.out [8@gcc quest01_a.c[C[1P[1@b
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ gcc quest01_b.c [8P./a.out[C
+To update the file my_data.txt with pg deatails.
+Input the number of lines to be appended : 2
+	P.G : Christ University, Bengalurur  u - India
+	Expected year of graduation : 2022
+
+The file my_data.txt is updated and pg data has been appended
+Displaying the content of my_data.txt:
+
+Name : Rajkumar Balakrishnan Lakshmi
+U.G : York University, Toronto - Canada (Bsc.Computer Science)
+Graduated Year: 2019
+
+	P.G : Christ University, Bengaluru - India
+	Expected year of graduation : 2022
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ e[Kcat my_data.txt 
+
+Name : Rajkumar Balakrishnan Lakshmi
+U.G : York University, Toronto - Canada (Bsc.Computer Science)
+Graduated Year: 2019
+
+	P.G : Christ University, Bengaluru - India
+	Expected year of graduation : 2022
+]0;kumarraj@kumarraj: ~/MCS/Lab02[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Lab02[00m$ exit
+exit
+
+Script done on 2020-08-14 22:42:28+05:30 [COMMAND_EXIT_CODE="0"]

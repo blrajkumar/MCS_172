@@ -1,0 +1,336 @@
+Script started on 2020-08-05 21:33:29+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="85" LINES="39"]
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ echo "
+> Name   :   Rajkumar b[KB L
+> Reg.No :   2047120
+> ">>2047120.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ mkdir MCS
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt  [0m[01;34mMCS[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ touch DOC1.txt[C DOC1.txtM DOC1.txtC DOC1.txtS DOC1.txt/ DOC1.txt[1P DOC1.txt[C[C[1PDOC1.txt/DOC1.txt[C[C[C[C[C[C[C
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls MCS/
+DOC1.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ echo "1
+> 2
+> 3">>MCS/DOC1.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ cat MCS/DOC1.txt 
+1
+2
+3
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ LS [K[K[Kls -l >> MCS/DOC2.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ cat MCS/DOC2.txt 
+total 4
+-rw-r--r-- 1 kumarraj kumarraj 1024 Aug  5 21:35 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:36 MCS
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ WC[K[Kwc -c MCS/DOC2.txt  >> MCS/Count_doc2_[K[K.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ cat MCS/Count_doc.txt 
+122 MCS/DOC2.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ toucj[Kh file1.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt  [0m[01;34mMCS[0m  file1.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ unlink[K[K[K[K[K[Kmkd[K[K[Kmv file1.txt  MCS/
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt  [0m[01;34mMCS[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls MCS/
+Count_doc.txt  DOC1.txt  DOC2.txt  file1.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ unlink MCS/file1.txt 
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ echo "Chandra
+> JP
+> Prabhu
+> Sandeep
+> Nismon
+> Rio
+> Chandra
+> Tulasi
+> Prabhu
+> Manjunath
+> Deepa
+> Nismon
+> Chandra
+> Tulasi
+> JP
+> Saleema
+> Manjunath
+> Rahul
+> Sandeep">>F[Kfaculty.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sort faculty.txt | uniq -c >> sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt  [0m[01;34mMCS[0m  faculty.txt  sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ cat sortedfile.txt 
+      3 Chandra
+      1 Deepa
+      2 JP
+      2 Manjunath
+      2 Nismon
+      2 Prabhu
+      1 Rahul
+      1 Rio
+      1 Saleema
+      2 Sandeep
+      2 Tulasi
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -i
+166633186212738676 2047120.txt   24488322973924702 faculty.txt
+  5066549581158502 [0m[01;34mMCS[0m           31806672368400927 sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 4
+-rw-r--r-- 1 kumarraj kumarraj 3584 Aug  5 21:43 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+-rw-r--r-- 1 kumarraj kumarraj  162 Aug  5 21:42 sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -X
+[0m[01;34mMCS[0m  2047120.txt  faculty.txt  sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -g
+total 4
+-rw-r--r-- 1 kumarraj 4096 Aug  5 21:43 2047120.txt
+drwxr-xr-x 1 kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj  132 Aug  5 21:42 faculty.txt
+-rw-r--r-- 1 kumarraj  162 Aug  5 21:42 sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -a
+[0m[01;34m.[0m              .bash_profile  .lesshst     .sudo_as_admin_successful  sortedfile.txt
+[01;34m..[0m             .bashrc        [01;34m.local[0m       2047120.txt
+.bash_history  [01;34m.cache[0m         .motd_shown  [01;34mMCS[0m
+.bash_logout   [01;34m.landscape[0m     .profile     faculty.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -d
+[0m[01;34m.[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo adduser chandra
+[sudo] password for kumarraj: 
+Adding user `chandra' ...
+Adding new group `chandra' (1002) ...
+Adding new user `chandra' (1002) with group `chandra' ...
+Creating home directory `/home/chandra' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for chandra
+Enter the new value, or press ENTER for the default
+	Full Name []: Chandra
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls[K[Kpwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 8
+-rw-r--r-- 1 kumarraj kumarraj 5632 Aug  5 21:45 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+-rw-r--r-- 1 kumarraj kumarraj  162 Aug  5 21:42 sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ chmod 000 sortedfile.txt 
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 8
+-rw-r--r-- 1 kumarraj kumarraj 6144 Aug  5 21:46 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+---------- 1 kumarraj kumarraj  162 Aug  5 21:42 sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ chmod 777 sortedfile.txt 
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls-[K -l
+total 8
+-rw-r--r-- 1 kumarraj kumarraj 6656 Aug  5 21:46 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+-rwxrwxrwx 1 kumarraj kumarraj  162 Aug  5 21:42 [01;32msortedfile.txt[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo chown chandra sortedfile.txt 
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 8
+-rw-r--r-- 1 kumarraj kumarraj 7168 Aug  5 21:47 2047120.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+-rwxrwxrwx 1 chandra  kumarraj  162 Aug  5 21:42 [01;32msortedfile.txt[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ echo "This is Rajkumar Bals[Kakrishnan Lakshmi (2047120).[K, from the
+> class of MCS, COMP[K[K[Komputer Science Department, Christ University. It has been three wee ks
+> now since the start of the academi [Kc year 2020 - 2021.[K and i am finding it good [K.[K as th e 
+> faculty is very friendly. I hope tht[Kat we get to meet eachother sooner after the end  of
+> pandemic and shake hands without worrying of any health hazards">>Letter.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 8
+-rw-r--r-- 1 kumarraj kumarraj 7680 Aug  5 21:48 2047120.txt
+-rw-r--r-- 1 kumarraj kumarraj  381 Aug  5 21:51 Letter.txt
+drwxr-xr-x 1 kumarraj kumarraj  512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj  132 Aug  5 21:42 faculty.txt
+-rwxrwxrwx 1 chandra  kumarraj  162 Aug  5 21:42 [01;32msortedfile.txt[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "Raj...a." lett[K[K[K[KLetter.txt 
+This is [01;31m[KRajkumar[m[K Balakrishnan Lakshmi (2047120), from the
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "pande?mic[K[K[Kic"[K[K[K[K[K[K[K[K[K[K-i "com[K[KOmpUt.." Letter.txt 
+class of MCS, [01;31m[KComputer[m[K Science Department, Christ University. It has been three weeks
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "haza[K[K[K[K[K]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "[K]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "[K]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "[K]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "[K]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep "of$" Letter.txt 
+faculty is very friendly. I hope that we get to meet eachother sooner after the end [01;31m[Kof[m[K
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep '^T[Kpandemic' Letter.txt 
+[01;31m[Kpandemic[m[K and shake hands without worrying of any health hazards
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep '[][KT]HE[K[Khr[K[Khe- '[T]hei '[T]he[1P '[T]he[1P '[T]he[C '[T]he- '[T]hei '[T]he[C '[T]he[1P'[T]he[C[C[C[C[C[C[C' l[Kl[KLetter.txt 
+This is Rajkumar Balakrishnan Lakshmi (2047120), from [01;31m[Kthe[m[K
+now since [01;31m[Kthe[m[K start of [01;31m[Kthe[m[K academic year 2020 - 2021 and i am finding it good as [01;31m[Kthe[m[K 
+faculty is very friendly. I hope that we get to meet eacho[01;31m[Kthe[m[Kr sooner after [01;31m[Kthe[m[K end of
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls -l
+total 16
+-rw-r--r-- 1 kumarraj kumarraj 10240 Aug  5 22:00 2047120.txt
+-rw-r--r-- 1 kumarraj kumarraj   381 Aug  5 21:51 Letter.txt
+drwxr-xr-x 1 kumarraj kumarraj   512 Aug  5 21:39 [0m[01;34mMCS[0m
+-rw-r--r-- 1 kumarraj kumarraj   132 Aug  5 21:42 faculty.txt
+-rwxrwxrwx 1 chandra  kumarraj   162 Aug  5 21:42 [01;32msortedfile.txt[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ cd MCS
+]0;kumarraj@kumarraj: ~/MCS[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS[00m$ ls
+Count_doc.txt  DOC1.txt  DOC2.txt
+]0;kumarraj@kumarraj: ~/MCS[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS[00m$ mkdir UNI[K[Knix172
+]0;kumarraj@kumarraj: ~/MCS[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS[00m$ touch 1[Ka1[K[K[K[K[K[K[K[Kcd Unix172/
+]0;kumarraj@kumarraj: ~/MCS/Unix172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Unix172[00m$ touch 1[Ka1 a2 a3
+]0;kumarraj@kumarraj: ~/MCS/Unix172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS/Unix172[00m$ cd
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ ls
+2047120.txt  Letter.txt  [0m[01;34mMCS[0m  faculty.txt  [01;32msortedfile.txt[0m
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ find -name[K[K[K[K[K. -name 2047120.txt 
+./2047120.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ find . -name[K[K[K[Ktype f -name "*.txt"
+./2047120.txt
+./faculty.txt
+./Letter.txt
+./MCS/Count_doc.txt
+./MCS/DOC1.txt
+./MCS/DOC2.txt
+./sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ find . -type f -perm 777
+./sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ find . -type f -name ".*"
+./.bashrc
+./.bash_history
+./.bash_logout
+./.bash_profile
+./.lesshst
+./.motd_shown
+./.profile
+./.sudo_as_admin_successful
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ find . -type f -name ".*"[1P*"
+./.bashrc
+./.bash_history
+./.bash_logout
+./.bash_profile
+./.cache/motd.legal-displayed
+./.landscape/sysinfo.log
+./.lesshst
+./.motd_shown
+./.profile
+./.sudo_as_admin_successful
+./2047120.txt
+./faculty.txt
+./Letter.txt
+./MCS/Count_doc.txt
+./MCS/DOC1.txt
+./MCS/DOC2.txt
+./MCS/Unix172/a1
+./MCS/Unix172/a2
+./MCS/Unix172/a3
+./sortedfile.txt
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo adduser prabhu
+[sudo] password for kumarraj: 
+Adding user `prabhu' ...
+Adding new group `prabhu' (1003) ...
+Adding new user `prabhu' (1003) with group `prabhu' ...
+Creating home directory `/home/prabhu' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for prabhu
+Enter the new value, or press ENTER for the default
+	Full Name []: changing ownership of 'newf.txt': Operation not permitted
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+chfn: invalid name: 'changing ownership of 'newf.txt': Operation not permitted'
+adduser: `/bin/chfn prabhu' returned error code 1. Exiting.
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo adduser prabhu
+adduser: The user `prabhu' already exists.
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo [K[K[K[K[Kwhoami
+kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo groupadd MCS172
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo usermod -a -G m[KMCS172 pr
+prabhu  proxy   
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo usermod -a -G MCS172 prabhu chandra 
+Usage: usermod [options] LOGIN
+
+Options:
+  -b, --badnames                allow bad names
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo usermod -a -G MCS172 prabhu chandra [K[K[K[K[K[K[K[K
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ sudo usermod -a -G MCS172 prabhu [K[K[K[K[K[K[Kchandra 
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep MCS/[K172 [K/etc/group
+^C
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ grep MCS172/etc/group /etc/group
+[01;31m[KMCS172[m[K:x:1004:prabhu,chandra
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ pwd
+/home/kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ whoami
+kumarraj
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ su -l chandra
+Password: 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Aug  5 22:12:33 IST 2020
+
+  System load:    0.52      Memory usage: 57%   Processes:       17
+  Usage of /home: unknown   Swap usage:   1%    Users logged in: 0
+
+
+0 updates can be installed immediately.
+0 of these updates are security updates.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+/usr/lib/ubuntu-release-upgrader/release-upgrade-motd: 31: cannot create /var/lib/ubuntu-release-upgrader/release-upgrade-available: Permission denied
+
+
+This message is shown once once a day. To disable it please create the
+/home/chandra/.hushlogin file.
+]0;chandra@kumarraj: ~[01;32mchandra@kumarraj[00m:[01;34m~[00m$ whoami
+chandra
+]0;chandra@kumarraj: ~[01;32mchandra@kumarraj[00m:[01;34m~[00m$ exit
+logout
+]0;kumarraj@kumarraj: ~[01;32mkumarraj@kumarraj[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-08-05 22:12:58+05:30 [COMMAND_EXIT_CODE="0"]
