@@ -1,0 +1,43 @@
+#!/bin/sh
+# MCS172   - Lab 02
+# Filename   : MENU
+# Author     : Balakrishnan Lakshmi, Rajkumar
+# Student ID : 2047120
+
+
+mymenu="================ MENU ================
+d: Delete duplicate files in two directories
+c: Create two files and display common words
+f: File type (Directory | File | Other)
+n: Find the biggest number
+h: Help / Display this menu
+r: Clear the screen
+q: Quit the program
+======================================
+"
+for i in *
+do
+  chmod 700 $i
+done
+
+echo -e "\n"
+echo    "$mymenu"
+echo -n "Enter command: "
+read mychoice
+
+while test $mychoice != q && test $mychoice != Q
+do
+case $mychoice in
+     d|D) ./fduplicate.sh ;;
+     c|C) ./fcreate.sh ;;
+     f|F) ./ffile.sh ;;
+     n|N) ./fnumbers.sh ;;
+     h|H) echo -ne "$mymenu" ;;
+     r|R) clear ;;
+     q|Q) exit 1 ;;
+       *) echo "Invalid command" ;;
+esac
+echo -e "\n$mymenu"
+echo -n "Enter command: "
+read mychoice
+done

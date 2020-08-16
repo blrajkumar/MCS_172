@@ -1,0 +1,6 @@
+
+ --------------------------------------
+|Displaying the conent of duplicate.txt|
+ --------------------------------------
+List of deleted duplicate files:
+ 

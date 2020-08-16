@@ -1,0 +1,6 @@
+#!/bin/sh
+for i in *
+do
+chmod 700 $i
+ls -l $i
+done
