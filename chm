@@ -1,1 +1,2 @@
-chmod -R 700 *
+#!/bin/sh
+chmod -R a+rX *
