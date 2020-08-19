@@ -51,6 +51,7 @@ cut -c 1-5 state.txt
 echo -en "\n===============================\n"
 cut -d " " -f 5 state.txt
 echo -en "\n===============================\n"
-at now + 2 minutes < myutil
+echo "Hey Raj" | at now + 1 minute
+at now + 2 minutes < menu
 
 

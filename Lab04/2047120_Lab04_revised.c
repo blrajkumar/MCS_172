@@ -74,8 +74,8 @@ int main()
        else
        {
          printf("Information about the file\n");
-         while(read(fd1,txt,strlen(txt))>0)
-            write(STDOUT_FILENO,txt,strlen(txt));
+         while(read(fd1,txt,20))
+            write(STDOUT_FILENO,txt,20);
          close(fd1);
          printf("\nFile Closed\n");
          break;
