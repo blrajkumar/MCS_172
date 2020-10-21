@@ -1,0 +1,22 @@
+
+ --------------------------------------
+| Displaying the conent of file 3.txt |
+ --------------------------------------
+The common words in File1.txt and File2.txt are: 
+a
+are
+Chandra
+is
+list
+Manjunath
+missing
+names
+of
+professors
+Saleema
+sample
+Sivakumar
+some
+the
+This
+where

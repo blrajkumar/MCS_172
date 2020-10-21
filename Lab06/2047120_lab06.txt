@@ -1,0 +1,73 @@
+Script started on 2020-10-06 23:42:52+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="145" LINES="36"]
+]0;kumarraj@kumarraj: ~/MCS_172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172[00m$ ls
+2047120_lab06.txt  [0m[01;34mCoursera[0m  [01;34mLab01[0m  [01;34mLab02[0m  [01;34mLab03[0m  [01;34mLab04[0m  [01;34mLab05[0m  [01;32mLab06.c[0m  [01;34mPractise_Problems[0m  [01;32ma.out[0m  a1  [01;32mchm[0m  chmaaa1  [01;32mdup_dummy.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172[00m$ mkdir Lab06
+]0;kumarraj@kumarraj: ~/MCS_172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172[00m$ ls
+2047120_lab06.txt  [0m[01;34mCoursera[0m  [01;34mLab01[0m  [01;34mLab02[0m  [01;34mLab03[0m  [01;34mLab04[0m  [01;34mLab05[0m  [01;34mLab06[0m  [01;32mLab06.c[0m  [01;34mPractise_Problems[0m  [01;32ma.out[0m  a1  [01;32mchm[0m  chmaaa1  [01;32mdup_dummy.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172[00m$ cd Lab06
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ touch a1.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "Hello" >> a1.txt 
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ cat a1.txt 
+Hello
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ln[K[KEcho [K[K[K[K[KE[Kecho "Using Soft link now
+> '[K"
+Using Soft link now
+
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ln -s a1.txt a1_soft.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "Using Hard Link"
+Using Hard Link
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ln a1.txt a1_hard.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls -i
+25614222880767274 a1.txt  25614222880767274 a1_hard.txt  94857067151564879 [0m[01;36ma1_soft.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo " Hard and file has same inode"
+ Hard and file has same inode
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo"[K "now removing the file" "a"1"."t"x"t"
+now removing the file a1.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ rm a1.txt[K[K[K[K[K[K[K[K[Kls
+a1.txt  a1_hard.txt  [0m[01;36ma1_soft.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ rm a1.txt 
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ cat a1_
+a1_hard.txt  a1_soft.txt  
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ cat a1_H[Khard.txt 
+Hello
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ CA[K[Kcat a1_soft.txt 
+cat: a1_soft.txt: No such file or directory
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ "[KECH[K[K[Kecho "Hard file retained while soft file deleted"
+Hard file retained while soft file deleted
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ to[K[Kmk[K[Ktouch b1.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ touch b2.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "Using mv and cp commands"
+Using mv and cp commands
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ mv b1.txt b1_copy.t[K[K[K[K[K[Krename.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m  b1_rename.txt  b2.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "b1 is renamed to b1_rename"
+b1 is renamed to b1_rename
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ cp b2.txt b2_copy.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m  b1_rename.txt  b2.txt  b2_copy.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "b2 is retained and a copy is made here"
+b2 is retained and a copy is made here
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "using rm and unlink commands"
+using rm and unlink commands
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ rm [K[K[Ktouch c1 c2
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ rm c1[K[K[K[K[Kls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m  b1_rename.txt  b2.txt  b2_copy.txt  c1  c2
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ rm c1
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m  b1_rename.txt  b2.txt  b2_copy.txt  c2
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ unlink c2
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ ls
+a1_hard.txt  [0m[40;31;01ma1_soft.txt[0m  b1_rename.txt  b2.txt  b2_copy.txt
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "rm is shell utiliy[Kty and unlink calls unlink sys call"
+rm is shell utility and unlink calls unlink sys call
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ echo "Rajkumar 2047120"
+Rajkumar 2047120
+]0;kumarraj@kumarraj: ~/MCS_172/Lab06[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/Lab06[00m$ exit
+exit
+
+Script done on 2020-10-06 23:54:27+05:30 [COMMAND_EXIT_CODE="0"]

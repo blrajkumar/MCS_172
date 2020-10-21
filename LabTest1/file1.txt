@@ -1,0 +1,7 @@
+1. Write a menu based Shell Script to demonstrate the following
+questions (minimum two questions be completed) using case... esac.
+(10 Marks)
+a) To check the given string is palindrome or not without using inbuilt
+function.
+b) Write a shell script to extract characters, numeric values from the
+given file and store it as a separate file. 

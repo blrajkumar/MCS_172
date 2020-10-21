@@ -1,0 +1,244 @@
+Script started on 2020-10-13 16:18:23+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="95" LINES="36"]
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ ls
+[0m[01;32m2047120.txt[0m  2047120_1.txt  [01;32ma.out[0m  [01;32mfile1.txt[0m  [01;32mfile2.txt[0m  [01;32mmyfile.txt[0m  [01;32mmyoutput.txt[0m  [01;32mq1.sh[0m  [01;32mq2.c[0m
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ uix2do[K[K[K[K[K[Kdos2unix *
+dos2unix: converting file 2047120.txt to Unix format...
+dos2unix: Binary symbol 0x1B found at line 2
+dos2unix: Skipping binary file 2047120_1.txt
+dos2unix: Binary symbol 0x02 found at line 1
+dos2unix: Skipping binary file a.out
+dos2unix: converting file file1.txt to Unix format...
+dos2unix: converting file file2.txt to Unix format...
+dos2unix: converting file myfile.txt to Unix format...
+dos2unix: converting file myoutput.txt to Unix format...
+dos2unix: converting file q1.sh to Unix format...
+dos2unix: converting file q2.c to Unix format...
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ ls[K[Kbash q1.sh
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 1
+Enter a string to check palindrome:
+rajar
+
+String is palindrome
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 1
+Enter a string to check palindrome:
+raj
+
+String is not palindrome
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ bash q1.sh
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 2
+Enter a file to extract characters and numbers:
+file1.txt
+
+ ----------------------------------------
+|Displaying the content of extracted text|
+ ----------------------------------------
+. Write a menu based Shell Script to demonstrate the following questions minimum two questions be completed using case... esac. Marks a To check the given string is palindrome or not without using inbuilt function. b Write a shell script to extract characters numeric values from the given file and store it as a separate file.
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 2
+Enter a file to extract characters and numbers:
+myfile.txt
+
+ ----------------------------------------
+|Displaying the content of extracted text|
+ ----------------------------------------
+ghjgkjhhgkjy iujhk HFJHGKJG VGJV
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 3
+[H[2J[3J
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 4
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ bash q1.sh
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: ^[[A
+Invalid command
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 4
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ bash q1.shdos2unix *
+dos2unix: converting file 2047120.txt to Unix format...
+dos2unix: Binary symbol 0x1B found at line 2
+dos2unix: Skipping binary file 2047120_1.txt
+dos2unix: Binary symbol 0x02 found at line 1
+dos2unix: Skipping binary file a.out
+dos2unix: converting file file1.txt to Unix format...
+dos2unix: converting file file2.txt to Unix format...
+dos2unix: converting file myfile.txt to Unix format...
+dos2unix: converting file myoutput.txt to Unix format...
+dos2unix: converting file q1.sh to Unix format...
+dos2unix: converting file q2.c to Unix format...
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ dos2unix *bash q1.sh
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 2
+Enter a file to extract characters and numbers:
+myfile.txt
+Displaying the extracted content:
+ghjgkjhhgkjy iujhk HFJHGKJG VGJV
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: ^[[A    2
+Enter a file to extract characters and numbers:
+file. 1.txt
+Displaying the extracted content:
+. Write a menu based Shell Script to demonstrate the following questions minimum two questions be completed using case... esac. Marks a To check the given string is palindrome or not without using inbuilt function. b Write a shell script to extract characters numeric values from the given file and store it as a separate file.
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 4
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ bash q1.shdos2unix *
+dos2unix: converting file 2047120.txt to Unix format...
+dos2unix: Binary symbol 0x1B found at line 2
+dos2unix: Skipping binary file 2047120_1.txt
+dos2unix: Binary symbol 0x02 found at line 1
+dos2unix: Skipping binary file a.out
+dos2unix: converting file file1.txt to Unix format...
+dos2unix: converting file file2.txt to Unix format...
+dos2unix: converting file myfile.txt to Unix format...
+dos2unix: converting file myoutput.txt to Unix format...
+dos2unix: converting file q1.sh to Unix format...
+dos2unix: converting file q2.c to Unix format...
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ dos2unix *bash q1.sh
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 2
+Enter a file to extract characters and numbers:
+myfile.txt
+Displaying the extracted content:
+12235657ghjgkjhhgkjy876iujhk HFJHGKJG VGJV67890
+
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 3
+[H[2J[3J
+
+========= Menu ==================
+1: Palindrome
+2: Extract Special Char
+3: Clear
+4: Exit
+=================================
+Enter the command: 4
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ gcc q2.c
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ ./a.out
+
+=========================
+	Menu
+=========================
+1.Create, Read & Write File
+2.UnLink
+3.Exit
+=========================
+Enter your choice:1
+Enter the file name to be created or opened: file1.txt
+File Creted or opened succesfully
+1. Write a menu based Shell Script to demonstrate the following
+questions (minimum two questions be completed) using case... esac.
+(10 Marks)
+a) To check the given string is palindrome or not without using inbuilt
+function.
+b) Write a shell script to extract characters, numeric values from the
+given file and store it as a separate file. m the
+given
+=========================
+	Menu
+=========================
+1.Create, Read & Write File
+2.UnLink
+3.Exit
+=========================
+Enter your choice:2
+Enter the file to be unlinked: file2.txt
+File unlinked successfully
+
+=========================
+	Menu
+=========================
+1.Create, Read & Write File
+2.UnLink
+3.Exit
+=========================
+Enter your choice:3
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest1[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest1[00m$ exit
+exit
+
+Script done on 2020-10-13 16:23:54+05:30 [COMMAND_EXIT_CODE="0"]
