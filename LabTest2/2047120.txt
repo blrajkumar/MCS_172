@@ -1,0 +1,269 @@
+Script started on 2020-11-07 09:46:47+05:30 [TERM="xterm-256color" TTY="/dev/tty2" COLUMNS="145" LINES="36"]
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ echo "Rajkumar B L 2047120"
+Rajkumar B L 2047120
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ ls
+[0m[01;32m2047120.txt[0m  [01;32ma.out[0m  [01;32mex.sh[0m  [01;32mq1.sh[0m  [01;32mq2.c[0m
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ ps
+  PID TTY          TIME CMD
+   71 pts/0    00:00:00 bash
+   78 pts/0    00:00:00 ps
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ pslsecho "Rajkumar B L 2047120"[14Pbash ex.sh  &[K[K[K[K[K[K[K[K[K[K[K[K[Kcat ex.sh 
+#!/bin/bash
+# Name       : RAJKUMAR B L
+# Student ID : 2047120
+# Email      : rajkumar.bl@cs.christuniversity.in
+# MCS172     : Labtest 
+
+while true
+do
+    i=1
+done 
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ cat ex.sh ps[Klsecho "Rajkumar B L 2047120"[14Pbash ex.sh  &
+[1] 82
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ ps
+  PID TTY          TIME CMD
+   71 pts/0    00:00:00 bash
+   82 pts/0    00:00:02 bash
+   83 pts/0    00:00:00 ps
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ bash q1.sh 
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 1
+
+Enter the command to set priority: 
+gcc q2.c
+Enter priority value (Most -20 to least 19): 
+0
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 2
+
+--------- Diplaying Processes --------- 
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+   26 ?        00:04:50 bash
+   49 tty2     00:00:00 init
+   50 tty2     00:00:00 bash
+   66 tty2     00:01:35 bash
+   70 tty2     00:00:00 script
+   71 pts/0    00:00:00 bash
+   82 pts/0    00:00:28 bash
+   86 pts/0    00:00:00 bash
+   92 pts/0    00:00:00 ps
+-----------------------------------------
+ 
+Enter the process id to change priority: 
+r 82
+Enter priority value (Most -20 to least 19): 
+5
+renice: failed to set priority for 82 (process ID): Permission denied
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 3
+
+--------- Diplaying Processes --------- 
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+   26 ?        00:05:25 bash
+   49 tty2     00:00:00 init
+   50 tty2     00:00:00 bash
+   66 tty2     00:02:10 bash
+   70 tty2     00:00:00 script
+   71 pts/0    00:00:00 bash
+   82 pts/0    00:01:02 bash
+   86 pts/0    00:00:00 bash
+   94 pts/0    00:00:00 ps
+-----------------------------------------
+ 
+Enter the process id to stop: 
+82
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 7
+q1.sh: line 83: e: command not found
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ bash q1.sh ps[Kbash ex.sh  &ps[Kbash q1.sh 
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 4 3
+
+--------- Diplaying Processes --------- 
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+   26 ?        00:05:56 bash
+   49 tty2     00:00:00 init
+   50 tty2     00:00:00 bash
+   66 tty2     00:02:41 bash
+   70 tty2     00:00:00 script
+   71 pts/0    00:00:00 bash
+   82 pts/0    00:01:33 bash
+   96 pts/0    00:00:00 bash
+   97 pts/0    00:00:00 ps
+-----------------------------------------
+ 
+Enter the process id to stop: 
+82
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: ^C
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ bash q1.sh ps[Kbash q1.sh 
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 3
+
+--------- Diplaying Processes --------- 
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+   26 ?        00:07:30 bash
+   49 tty2     00:00:00 init
+   50 tty2     00:00:00 bash
+   66 tty2     00:04:14 bash
+   70 tty2     00:00:00 script
+   71 pts/0    00:00:00 bash
+   82 pts/0    00:03:07 bash
+   98 pts/0    00:00:00 bash
+   99 pts/0    00:00:00 ps
+-----------------------------------------
+ 
+Enter the process id to stop: 
+82
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 4
+
+--------- Diplaying All Processes --------- 
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S     0     1     0  0  80   0 -  2234 ?      ?        00:00:00 init
+0 R  1000    26     1 84  80   0 -  4166 -      ?        00:07:37 bash
+0 S     0    49     1  0  80   0 -  2234 -      tty2     00:00:00 init
+0 S  1000    50    49  0  80   0 -  4551 -      tty2     00:00:00 bash
+0 R  1000    66    50 83  80   0 -  4166 -      tty2     00:04:21 bash
+0 R  1000    70    50  0  80   0 -  3851 -      tty2     00:00:00 script
+0 S  1000    71    70  0  80   0 -  4545 -      pts/0    00:00:00 bash
+0 S  1000    98    71  0  80   0 -  4199 -      pts/0    00:00:00 bash
+0 R  1000   100    98  0  80   0 -  4642 -      pts/0    00:00:00 ps
+---------------------------------------------
+ 
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 5
+
+--------- Diplaying Processes Hier --------- 
+init─┬─bash
+     ├─init───bash─┬─bash
+     │             └─script───bash───bash───pstree
+     └─{init}
+---------------------------------------------
+ 
+
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 6
+[H[2J[3J
+
+========= Menu ==================
+1: Set Prority
+2: Change Priority
+3: Stop process
+4: Display Process Info
+5: Display Process Hierarchy
+6: Clear
+7: Exit
+=================================
+Enter the command: 7
+[1]+  Killed                  bash ex.sh
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ bash q1.sh [K[K[K[K[K[K[K[K[K[K[Kgcc q2.c .[K[K
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ ./a.out
+Child Reading from parent, the message is ------> I am your parent and My Id is 151
+Parent Reading from child, the message is ------> Hi parent, My ID is 896
+]0;kumarraj@kumarraj: ~/MCS_172/LabTest2[01;32mkumarraj@kumarraj[00m:[01;34m~/MCS_172/LabTest2[00m$ exit
+exit
+
+Script done on 2020-11-07 09:52:06+05:30 [COMMAND_EXIT_CODE="0"]
