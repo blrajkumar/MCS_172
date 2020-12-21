@@ -1,30 +1,33 @@
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
-
-#define MAX 100
+#include <unistd.h>
 
 // message queue
 struct mesg_buffer
 {
 	long mesg_type;
-	char mesg_text[MAX];
+	char mesg_text[100];
 } message;
 
 int main()
 {
+
 	key_t key = 12345;
 	int msgid;
 	msgid = msgget(key, 0666 | IPC_CREAT);
-	message.mesg_type = 1;
-	printf("DATA TO CLIENT PROGRAM : ");
+	msgrcv(msgid, &message, sizeof(message), 1, 0);
+	printf("DATA FROM SERVER IS : %s \n", message.mesg_text);
+
+	//send response
+	printf("DATA TO SERVER PROGRAM : ");
+	sleep(10);
 	// gets(message.mesg_text);
 	scanf("%s", message.mesg_text);
+	message.mesg_type = 2;
 	msgsnd(msgid, &message, sizeof(message), 0);
 
-	//read response
-	msgrcv(msgid, &message, sizeof(message), 2, 0);
-	printf("DATA FROM CLIENT IS : %s \n", message.mesg_text);
+	msgctl(msgid, IPC_RMID, NULL);
 
 	return 0;
 }
